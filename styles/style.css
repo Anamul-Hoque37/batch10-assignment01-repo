@@ -3,13 +3,48 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+
+
+/* Share style starts here  */
+.content1{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.content2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+.container1{
+    display: flex;
+    position: relative;
+    background-color: white;
+    background: transparent 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+.content3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+}
+/* Share style ends here  */
+
+
 /* Banner style starts here  */
 .banner-container{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     width: 1440px;
     height: 652px;
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
+    margin-bottom: 74px;
 }
 .banner-content{
     display: flex;
@@ -45,3 +80,34 @@ body{
     text-align: center;
 }
 /* Banner style ends here  */
+/* Web Development style starts here  */
+.web-development-container{
+    /* border: 5px solid red; */
+    width: 1140px;
+    height: 1395px;
+    left: 148px;
+    right: 152px;
+    margin: 0 auto;border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+}
+.web-development-content{
+    /* border: 3px solid yellow; */
+    margin: 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    flex: 1;
+}
+.web-development-container .web-development-content-header{
+   text-align: center;
+   padding: 0px 48px 48px 48px;
+}
+.web-development-container .web-development-content-header h2{
+    font-size: 32px;
+    font-weight: 800;
+    color:rgb(13, 19, 33) ;
+}
+/* Web Development style ends here  */
+
